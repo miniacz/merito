@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Formularz kontaktowy</h2>
+    <form  method="get" id="contactForm">
+      <label for="name">Imię:</label>
+      <input type="text" name="name" id="name"><br><br>
+
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email"><br><br>
+
+      <label>Płeć</label>
+      <div class="radio-group">
+        <input type="radio" name="gender" id="male" value="Mężczyzna" required>
+        <label for="male">Mężczyzna</label>
+
+        <input type="radio" name="gender" id="female" value="Kobieta">
+        <label for="female">Kobieta</label>
+      </div>
+
+      <label>Zainteresowania</label>
+      <div class="checkbox-group">
+        <input type="checkbox" name="interests" id="sport" value="Sport">
+        <label for="sport">Sport</label>
+
+        <input type="checkbox" name="interests" id="music" value="Muzyka">
+        <label for="music">Muzyka</label>
+
+        <input type="checkbox" name="interests" id="movies" value="Filmy">
+        <label for="movies">Filmy</label>
+      </div>
+
+      <label for="message">Wiadomość</label>
+      <textarea name="message" id="message" cols="50" rows="4" required></textarea><br><br>
+
+      <button type="submit">Wyślij</button>
+    </form>
+    <div id="result"></div>
+
+  </div>
+
+    <script src="app.js"></script>
+    
+
+</body>
+</html>
