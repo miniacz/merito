@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rozszerzony Formularz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Formularz kontaktowy</h2>
+    
+    <form id="contactForm">
+      <label for="name">Imię:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label>Płeć:</label>
+      <div class="radio-group">
+        <input type="radio" id="male" name="gender" value="Mężczyzna" required>
+        <label for="male">Mężczyzna</label>
+        
+        <input type="radio" id="female" name="gender" value="Kobieta">
+        <label for="female">Kobieta</label>
+      </div>
+
+      <label>Zainteresowania:</label>
+      <div class="checkbox-group">
+        <input type="checkbox" id="sport" name="interests" value="Sport">
+        <label for="sport">Sport</label>
+
+        <input type="checkbox" id="music" name="interests" value="Muzyka">
+        <label for="music">Muzyka</label>
+
+        <input type="checkbox" id="movies" name="interests" value="Filmy">
+        <label for="movies">Filmy</label>
+      </div><br>
+
+      <div class="checkbox">
+        <label for="contactConsent">Zgoda na kontakt</label>
+        <input type="checkbox" name="contactConsent" id="contactConsent" >
+      </div><br>
+
+      <label for="phone">Numer Telefonu</label>
+      <input type="tel" name="phone" id="phone" required>
+
+      <label for="age">Wiek</label>
+      <input type="number" name="age" id="age" required>
+
+      <label for="message">Wiadomość:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Wyślij</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
