@@ -1,0 +1,24 @@
+[2025-04-18 14:04:05] Kategoria: Praca | Ważność: Ważne
+Notatka: Anna
+--------------------------------------------------
+[2025-04-18 14:04:46] Kategoria: Inne | Ważność: Nieważne
+Notatka: Janusz
+--------------------------------------------------
+[2025-04-18 14:07:41] Kategoria: Inne | Ważność: Nieważne
+Notatka: Janusz
+--------------------------------------------------
+[2025-04-18 14:08:18] Kategoria: Inne | Ważność: Nieważne
+Notatka: Janusz
+--------------------------------------------------
+[2025-04-18 14:08:51] Kategoria: Praca | Ważność: Ważne
+Notatka: Janusz <u>Kowalski</u>
+--------------------------------------------------
+[2025-04-18 14:09:17] Kategoria: Praca | Ważność: Ważne
+Notatka: Janusz <u>Kowalski</u>
+--------------------------------------------------
+[2025-04-18 14:09:44] Kategoria: Praca | Ważność: Ważne
+Notatka: &#x2705 test
+--------------------------------------------------
+[2025-04-18 14:12:58] Kategoria: Praca | Ważność: Ważne
+Notatka: asd
+--------------------------------------------------
